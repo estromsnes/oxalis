@@ -22,7 +22,7 @@ To build:
 * At oxalis: mvn clean install
 * At oxalis-start-inbound: mvn package -Dmaven.test.skip cargo:deployer-undeploy cargo:deployer-deploy. This will start the access point in Tomcat.
 * At oxalis-standalone: mvn -Dmaven.test.skip assembly:assembly. This builds the command line component.
-* At oxalis-standalone/target: java -jar oxalis.jar. This gives an overview over the command line options.
+* At oxalis-standalone/target: java -jar oxalis-standalone.jar. This gives an overview over the command line options.
 
 Miscellaneous notes:
 
